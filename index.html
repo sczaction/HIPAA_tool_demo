@@ -132,7 +132,7 @@
          Explain the Situation
         </h2>
         <p>
-         Select all options that apply. Optional fields may be left blank.
+         Select all options that apply and be sure to choose the most pressing issues being faced at the moment. Optional fields may be left blank. Please note that selecting too many options may result in a letter that doesn't focus on the most pressing concerns at the moment.
         </p>
        </div>
        <div class="selected-pathway-banner">
@@ -214,7 +214,7 @@
          </div>
          <div class="field-group">
           <label for="customSetting">
-           Other treatment setting
+           Other treatment setting if not listed above
            <span class="optional">
             (optional)
            </span>
@@ -227,7 +227,7 @@
           Patient, Caregiver, and Roles
          </legend>
          <p class="group-help">
-          Enter the names and roles that should be included in the prompt.
+          Enter the names and roles that should be included in the prompt. 
          </p>
          <div class="form-grid">
           <div class="field-group">
@@ -241,12 +241,6 @@
             Patient name
            </label>
            <input id="patientName" placeholder="Enter patient name" type="text"/>
-          </div>
-          <div class="field-group">
-           <label for="relationshipToPatient">
-            Relationship to patient
-           </label>
-           <input id="relationshipToPatient" placeholder="For example: mother, spouse, sibling" type="text"/>
           </div>
           <div class="field-group">
            <label for="caregiverRole">
@@ -280,8 +274,14 @@
            </select>
           </div>
           <div class="field-group">
+           <label for="relationshipToPatient">
+            Details on relationship to patient
+           </label>
+           <input id="relationshipToPatient" placeholder="For example: mother, spouse, sibling" type="text"/>
+          </div>
+          <div class="field-group">
            <label for="customRole">
-            Other caregiver role
+            Other caregiver role if not listed
             <span class="optional">
              (optional)
             </span>
@@ -290,7 +290,7 @@
           </div>
           <div class="field-group">
            <label for="providerRole">
-            Healthcare provider role
+            Healthcare provider addressed in letter
            </label>
            <select id="providerRole">
             <option>
@@ -324,7 +324,7 @@
           </div>
           <div class="field-group">
            <label for="customProvider">
-            Other provider role
+            Provider role if not listed
             <span class="optional">
              (optional)
             </span>
@@ -338,11 +338,11 @@
           Current Needs and Challenges
          </legend>
          <p class="group-help">
-          Choose everything that applies to the situation.
+          Choose everything that applies to the situation. Think about information that either must be provided or must be trying to get from the treatment team.
          </p>
          <div class="subsection">
           <h3>
-           Information Needed
+           Information Needed For Provider
           </h3>
           <div class="checkbox-grid compact">
            <label class="choice-card">
@@ -400,7 +400,7 @@
          </div>
          <div class="subsection">
           <h3>
-           Actions Sought
+           Actions Sought With Providers
           </h3>
           <div class="checkbox-grid compact">
            <label class="choice-card">
@@ -452,7 +452,7 @@
          </div>
          <div class="subsection">
           <h3>
-           Current Challenges
+           Current Challenges with Loved One
           </h3>
           <div class="checkbox-grid compact">
            <label class="choice-card">
@@ -499,7 +499,7 @@
         </fieldset>
         <fieldset class="form-group-card">
          <legend>
-          Information to Share
+          Information to Share with Providers
          </legend>
          <p class="group-help">
           Select information the caregiver wants the provider to consider.
@@ -582,11 +582,11 @@
         <button class="btn-outline" id="editAnswersButton" type="button">
          Edit Answers
         </button>
-        <button class="btn-secondary" id="openClaudeButton" type="button">
-         Open Claude
-        </button>
         <button class="btn-primary" id="copyPromptButton" type="button">
          Copy System Prompt
+        </button>
+        <button class="btn-secondary" id="openClaudeButton" type="button">
+         Open Claude
         </button>
        </div>
       </section>
@@ -598,7 +598,7 @@
          📄
         </span>
         <span class="instructions-label">
-         How to Use This Website
+         New Here? Start Here:
         </span>
         <span aria-hidden="true" class="instructions-chevron">
          ▼
@@ -613,7 +613,7 @@
           Open the full user guide for step-by-step instructions and examples.
          </p>
          <p>
-          Please note that this tool is a complement to the greater HIPPAA Toolkit Handbook,
+          Please note that this tool is a complement to the greater HIPAA Toolkit Handbook,
           which covers HIPAA regulations, limitations, considerations, and related details.
          </p>
          <a class="btn-primary user-guide-button" href="tutorial.html">

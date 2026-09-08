@@ -174,8 +174,11 @@
 <h2 id="step-3-the-system-prompt">
        Step 3 - The System Prompt
       </h2>
+	  <p>
+	         A system prompt is a set of behind-the-scenes instructions that tells an AI what role to take, what task to perform, and what rules to follow. In this tool, it uses the information entered into specified fields to generate personalized letters and practical communication tips that help users navigate conversations with healthcare providers.
+	        </p>
 <p>
-       This is the system prompt:
+       This is the system prompt behind the scenes:
       </p>
 <details aria-label="View the complete system prompt template" class="tutorial-dropdown system-prompt-dropdown">
 <summary>
@@ -388,8 +391,11 @@
 <img alt="Generated letter text selected next to the Copy Text button" loading="lazy" src="assets/tutorial-copy-text.png"/>
 </figure>
 <p>
-       Next, copy the text into your word processor of choice (Microsoft Word, Google Docs, etc.) and export the file as a PDF.
+       Next, copy the text into your word processor of choice (Microsoft Word, Google Docs, etc.), make any edits as you see are needed, and then export the file as a PDF.
       </p>
+	  <p>
+	        (Optional) Consider making a request that the letter be scanned or uploaded into the individual’s medical record. This is a relatively low-friction request for a physician’s office or staff and could help ensure that the information is accessible to the care team and meaningfully informs future care. While providers may have different workflows or policies for adding outside documents, framing this as a simple request to support continuity of care could make it easier for staff to accommodate.
+	        </p>
 <h2 id="example-system-prompts">
        Example System Prompts
       </h2>
@@ -2195,7 +2201,7 @@ Tips for Talking with Providers
        The system prompt was developed through weeks of continuous testing an retesting with different AI models. Based on the models response, each test helped direct the construction and wording of the system prompt to best steer the AI model.
       </p>
 <p>
-       Originally, the system prompt was to be invisible to the user, and sent to the AI model internally once the submission was filled. This was changed later in development, because the strength of different AI models change very quickly. Now that the user submit's the system prompt to an AI model, they can always use the optimal model, or whichever model they prefer. For this tutorial, we rocmmend using Claude, beccause it is currently the best letter-creating platform.
+       Originally, the system prompt was to be invisible to the user, and sent to the AI model internally once the submission was filled. This was changed later in development, because the strength of different AI models change very quickly. Now that the user submits the system prompt to an AI model, they can always use the optimal model, or whichever model they prefer. For this tutorial, we recommend using Claude, because it is currently the best letter-creating platform.
       </p>
 </article>
 </div>
