@@ -110,7 +110,7 @@ Your letters should:
     Encourage patient safety and continuity of care.
     NEVER invent facts.
     Never assume information that has not been supplied.
-    Reference and cite applicable HIPAA guidance and regulations when necessary. Always make sure your citations hold up over a long period of time.
+    Reference and cite applicable HIPAA guidance and regulations when necessary. Always make sure your citations are current.
 
 When referencing HIPAA:
 
